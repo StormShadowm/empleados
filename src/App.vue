@@ -1,8 +1,8 @@
 <template>
   <nav>
-    <router-link to=""></router-link> |
-    <router-link to="/listar">Listar</router-link> |
-    <router-link to="/crear">Crear</router-link> |
+    <router-link to="/">Inicio</router-link> |
+    <router-link to="/listar">Ver todos los empleados</router-link> |
+    <router-link to="/crear">Crear empleado</router-link> |
   </nav>
   <router-view />
 </template>
