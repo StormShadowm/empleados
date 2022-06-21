@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <router-link to="/Crear" class="btn btn-success"
-      >Agregar nuevo empleado</router-link
+      >Agregar nuevo empleador sexual</router-link
     >
     <br /><br />
     <div class="card">
-      <div class="card-header">Empleados</div>
+      <div class="card-header">Empleadores sexuales</div>
       <div class="card-body">
         <table class="table">
           <thead>

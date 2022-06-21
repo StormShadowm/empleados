@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="card">
-      <div class="card-header">Agregar nuevos empleados</div>
+      <div class="card-header">Agregar cliente sexual de sebastian</div>
       <div class="card-body">
         <form v-on:submit.prevent="agregarRegistro">
           <div class="form-group">
@@ -17,7 +17,7 @@
               placeholder="Nombre"
             />
             <small id="helpId" class="form-text text-muted"
-              >Escribe el nombre del empleado</small
+              >Escribe el nombre del nuevo amo sexual de sebastian</small
             >
           </div>
 
@@ -34,7 +34,7 @@
               placeholder="Correo"
             />
             <small id="helpId" class="form-text text-muted"
-              >Escribe el correo el empleado</small
+              >Escribe el correo del nuevo empleador de sebastian</small
             >
           </div>
 
