@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Inicio</h1>
-    <p>Este un ejemplo de como se vera la pagina en etapa inicial</p>
+    <h1>Pagina de muestra para portafolio</h1>
   </div>
 </template>
 
