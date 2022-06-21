@@ -13,7 +13,7 @@
               <th>ID</th>
               <th>Nombre</th>
               <th>correo</th>
-              <th>Acciones</th>
+              <!-- <th>Acciones</th>-->
             </tr>
           </thead>
           <tbody>
@@ -23,13 +23,9 @@
               <td>{{ empleado.correo }}</td>
               <td>
                 <div class="btn-group" role="group" aria-label="">
-                  <router-link
-                    :to="{ name: 'Editar', params: { id: empleado.id } }"
-                    class="btn btn-info"
-                    >Editar</router-link
-                  >
+                  <!-- <router-link :to="{ name: 'Editar', params: { id: empleado.id } }" class="btn btn-info" >Editar</router-link>  -->
 
-                  <!-- <button type="button" v-on:click="borrarEmpleado(empleado.id)" class="btn btn-danger" > Borrar</button>-->
+                  <!-- <button type="button" v-on:click="borrarEmpleado(empleado.id)" class="btn btn-danger" > Borrar</button> -->
                 </div>
               </td>
             </tr>
