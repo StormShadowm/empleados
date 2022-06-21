@@ -28,13 +28,8 @@
                     class="btn btn-info"
                     >Editar</router-link
                   >
-                  <button
-                    type="button"
-                    v-on:click="borrarEmpleado(empleado.id)"
-                    class="btn btn-danger"
-                  >
-                    Borrar
-                  </button>
+
+                  <!-- <button type="button" v-on:click="borrarEmpleado(empleado.id)" class="btn btn-danger" > Borrar</button>-->
                 </div>
               </td>
             </tr>
