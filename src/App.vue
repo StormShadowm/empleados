@@ -1,10 +1,8 @@
 <template>
   <nav>
     <router-link to="/">Inicio</router-link> |
-    <router-link to="/listar"
-      >Ver todos los cliente sexuales de sebastian</router-link
-    >
-    | <router-link to="/crear">Crear nuevo cliente de sebastian</router-link> |
+    <router-link to="/listar">Ver todos los cliente empleados</router-link>
+    | <router-link to="/crear">Crear nuevo empleado</router-link> |
   </nav>
   <router-view />
 </template>

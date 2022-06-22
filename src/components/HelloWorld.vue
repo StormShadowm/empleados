@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Pagina de gestion de servicios sexuales de sebastian</h1>
-    <h1>al por mayor y al por menor</h1>
+    <h1>Pagina para la gestion de empleados</h1>
   </div>
 </template>
 

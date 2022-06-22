@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <router-link to="/Crear" class="btn btn-success"
-      >Agregar nuevo empleador sexual</router-link
+      >Agregar nuevo empleado</router-link
     >
     <br /><br />
     <div class="card">
-      <div class="card-header">Empleadores sexuales</div>
+      <div class="card-header">empleados</div>
       <div class="card-body">
         <table class="table">
           <thead>
@@ -23,9 +23,19 @@
               <td>{{ empleado.correo }}</td>
               <td>
                 <div class="btn-group" role="group" aria-label="">
-                  <!-- <router-link :to="{ name: 'Editar', params: { id: empleado.id } }" class="btn btn-info" >Editar</router-link>  -->
+                  <router-link
+                    :to="{ name: 'Editar', params: { id: empleado.id } }"
+                    class="btn btn-info"
+                    >Editar</router-link
+                  >
 
-                  <!-- <button type="button" v-on:click="borrarEmpleado(empleado.id)" class="btn btn-danger" > Borrar</button> -->
+                  <button
+                    type="button"
+                    v-on:click="borrarEmpleado(empleado.id)"
+                    class="btn btn-danger"
+                  >
+                    Borrar
+                  </button>
                 </div>
               </td>
             </tr>
