@@ -13,7 +13,7 @@
               <th>ID</th>
               <th>Nombre</th>
               <th>correo</th>
-              <th>Acciones</th>
+              <th>Accioness</th>
             </tr>
           </thead>
           <tbody>
