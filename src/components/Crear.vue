@@ -34,7 +34,7 @@
               placeholder="Correo"
             />
             <small id="helpId" class="form-text text-muted"
-              >Escribe el correo del nuevo empleado</small
+              >Escribe el correo del nuevo empleados</small
             >
           </div>
 
